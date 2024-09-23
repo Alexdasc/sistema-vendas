@@ -1,0 +1,37 @@
+# Sistema de Vendas
+
+Este projeto é um sistema de vendas simples que gerencia clientes, produtos e transações de vendas. O sistema permite realizar operações de inserção, consulta, atualização e exclusão de registros no banco de dados.
+
+## Estrutura do Banco de Dados
+
+O sistema consiste nas seguintes tabelas:
+- **Clientes**: Armazena os dados dos clientes como nome, email e telefone.
+- **Produtos**: Armazena as informações dos produtos como nome, preço e quantidade em estoque.
+- **Vendas**: Registra as transações de vendas, incluindo o cliente, produto, quantidade e data da venda.
+
+## Funcionalidades
+
+1. **Inserção de Dados**: Adicionar novos clientes, produtos e vendas ao sistema.
+2. **Consultas**:
+   - Listar todas as vendas com os respectivos clientes e produtos.
+   - Consultar as vendas de um cliente específico.
+   - Exibir a quantidade total vendida por produto.
+3. **Atualizações**:
+   - Atualizar o estoque de produtos após uma venda.
+   - Alterar o email de um cliente.
+4. **Exclusões**:
+   - Excluir registros de vendas.
+   - Excluir clientes e suas vendas associadas.
+
+## Requisitos
+
+- MySQL ou outro sistema de gerenciamento de banco de dados que suporte SQL.
+- Ferramentas como MySQL Workbench ou phpMyAdmin para executar o script SQL.
+
+## Como Usar
+
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-vendas.git
+   cd sistema-vendas
+
