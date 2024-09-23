@@ -1,0 +1,23 @@
+# Ignorar arquivos e diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Bancos de dados locais
+*.sql
+*.sqlite
+*.db
+
+# Configurações de ambiente e variáveis de configuração
+.env
+
+# Diretórios de IDEs
+.idea/
+.vscode/
+
+# Dependências locais
+node_modules/
+vendor/
